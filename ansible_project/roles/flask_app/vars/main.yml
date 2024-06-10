@@ -1,0 +1,8 @@
+custom_ca_certificates:
+   -CA1.crt
+   -CA2.crt
+   -CA3.crt
+app_port: 5000
+deployment_location: /opt/example
+wheel_file: Example-1.1.1-py3-none-any.wh1
+venv_path: “{{ deployment_location }}/venv”
